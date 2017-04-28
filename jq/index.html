@@ -1,0 +1,22 @@
+CTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="jquery-jvectormap-2.0.2.css"/>
+    <script src="http://cdn.bootcss.com/jquery/2.1.4/jquery.min.js"></script>
+    <script src="jquery-jvectormap-2.0.2.min.js"></script>
+    <script src="jquery-jvectormap-china-en.js"></script>
+    <style>
+        text{z-index: 100;}
+    </style>
+</head>
+<body>
+<div id="map" style="width:600px;height: 400px;"></div>
+<script>
+    $(function(){
+        $('#map').vectorMap({map: 'cn_merc_en'});
+    })
+</script>
+</body>
+</html>
